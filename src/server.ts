@@ -1,5 +1,6 @@
-import config from './config';
+import config from './app/config';
 import app from './app';
+
 import mongoose from 'mongoose';
 
 async function main() {
@@ -13,3 +14,4 @@ async function main() {
     console.log(error);
   }
 }
+main()
